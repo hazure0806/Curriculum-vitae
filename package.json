@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:pdf": "md-to-pdf docs/${YOUR_RESUME}.md --config-file ./pdf-configs/config.js",
+    "build:pdf": "md-to-pdf docs/Curriculum-vitae.md --config-file ./pdf-configs/config.js",
     "lint": "textlint . && markdownlint *.md **/*.md"
   },
   "keywords": [],
