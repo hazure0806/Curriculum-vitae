@@ -13,6 +13,5 @@ jobs:
         with:
           node-version: 18
           cache: npm
-      - run: npm install -g markdownlint-cli
-      - run: npx textlint . && markdownlint *.md **/*.md
-
+      - run: npm install -g textlint markdownlint-cli
+      - run: textlint . && markdownlint *.md **/*.md
