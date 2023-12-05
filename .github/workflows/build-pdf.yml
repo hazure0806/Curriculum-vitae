@@ -3,7 +3,7 @@ name: release pdf
 on:
   pull_request:
     branches: [main]
-    paths: 'docs/#{YOUR_RESUME}.md'
+    paths: 'docs/Curriculum-vitae.md'
 
 jobs:
   build:
