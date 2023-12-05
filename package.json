@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:pdf": "md-to-pdf docs/Curriculum-vitae.md --config-file ./pdf-configs/config.js",
-    "lint": "textlint . && markdownlint *.md **/*.md"
+    "lint": "npx textlint . && npx markdownlint *.md **/*.md"
   },
   "keywords": [],
   "author": "",
